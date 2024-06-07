@@ -39,6 +39,7 @@ Missing values count for 0.7% only of the data. As we can see on picture below, 
 <img width="685" alt="Screenshot 2024-06-07 at 16 52 46" src="https://github.com/tanle8/tsa-gecco-challenge/assets/55974674/bad1f7d2-f9a8-495f-8203-6589d2ec0331">
 
 To understand better our anomalies, we did a plot per feature. If some data points look like obvious outliers, others are mixed in the crowd and it might be harder to properly detect them. The plot below for the pH value of the water over time is  a good example of this:
+
 <img width="1165" alt="Screenshot 2024-06-07 at 16 52 23" src="https://github.com/tanle8/tsa-gecco-challenge/assets/55974674/d9263804-9e8e-4cf2-b99c-ebed29c81b7c">
 
 Finally, we looked at an hourly level and it seems anomalies are:
@@ -47,6 +48,7 @@ Finally, we looked at an hourly level and it seems anomalies are:
 - peaks at 9 and 10am
 
 Appart from that, anomalies are quite evenly distributed.
+
 <img width="879" alt="Screenshot 2024-06-07 at 16 52 33" src="https://github.com/tanle8/tsa-gecco-challenge/assets/55974674/06cfe3ef-1f9e-4fb8-bdf2-234d7bbd5cda">
 
 
