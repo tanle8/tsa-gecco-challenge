@@ -34,7 +34,7 @@ The chosen algorithms need to respect the following criteria:
 
 After each modeling approach, you need to:
 
-1. visualize anomalies: correct anomalies (labels) in green and predicted anomalies in red
+1. Visualize anomalies: correct anomalies (labels) in green and predicted anomalies in red
 2. Analyse the model errors:
     - Why some data points were classified as anomalies while they are not (False positives)?
     - Why some data points were not classified as anomalies while they are (False negatives)?
@@ -51,10 +51,16 @@ For this assignment, you need to submit a link to the project github repository 
 - A link to the dataset you will be used for the project (make sure it respects the requirements
   defined *1. project description.md* file)
 - A small description of the use case (energy consumption for London habitants for example)
-- A description of the dataset (what it represents, what an anomaly represents, different features, etc)
-- Some statistics about the dataset (percentage of anomalies, ...)
+- A description of the dataset
+  - What it represents,
+  - what an anomaly represents,
+  - different features,
+  - etc
+- Some statistics about the dataset:
+  - percentage of anomalies,
+  - ...
 
-2. A notebook with EDA on the dataset (make sure to have plots about all dataset anomalies)
+✅ 2. A notebook with EDA on the dataset (make sure to have plots about all dataset anomalies)
 
 
 # Defense - Anomaly detection on a time series dataset

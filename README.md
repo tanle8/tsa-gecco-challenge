@@ -15,7 +15,7 @@ The challenge dataset comprises multivariate time series data collected from a r
 - `Leit` (Electrical Conductivity): Reflects the water's ionic activity and total dissolved solids.
 - `Trueb` (Turbidity): Measures the clarity of water, where higher values may indicate pollution.
 - `Fm` and `Fm_2` (Flow rates): Recorded at two different water lines, these indicate the volume of water flow, essential for detecting leaks or changes in water demand.
-- EVENT: A boolean label identifying whether a measurement is considered an anomaly, crucial for training models to recognize signs of potential issues.
+- `EVENT`: A boolean label identifying whether a measurement is considered an anomaly, crucial for training models to recognize signs of potential issues.
 
 ## Applications and Importance
 
