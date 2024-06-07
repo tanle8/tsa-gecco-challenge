@@ -30,3 +30,25 @@ The dataset not only serves as a valuable resource for developing and benchmarki
 
 Group: Duy Tan LE and Julien Guyet
 
+## EDA Summary
+
+It is important to note that per the GECCO Organization, the **<font color=#ff7400>flow rate and the temperature</font>** of the water is considered as operational data: **<font color=#ff7400>changes</font>** in these values may indicate variations in the related quality values but **<font color=#ff7400>are not considered as events themselves</font>**.
+
+Missing values count for 0.7% only of the data. As we can see on picture below, after investigation we notice values for every columns are always missing for the same rows, so we will probably drop them when building the model.
+
+<img width="685" alt="Screenshot 2024-06-07 at 16 52 46" src="https://github.com/tanle8/tsa-gecco-challenge/assets/55974674/bad1f7d2-f9a8-495f-8203-6589d2ec0331">
+
+To understand better our anomalies, we did a plot per feature. If some data points look like obvious outliers, others are mixed in the crowd and it might be harder to properly detect them. The plot below for the pH value of the water over time is  a good example of this:
+
+<img width="1165" alt="Screenshot 2024-06-07 at 16 52 23" src="https://github.com/tanle8/tsa-gecco-challenge/assets/55974674/d9263804-9e8e-4cf2-b99c-ebed29c81b7c">
+
+Finally, we looked at an hourly level and it seems anomalies are:
+- not appearing at 2am and midnight
+- very low at 6pm
+- peaks at 9 and 10am
+
+Appart from that, anomalies are quite evenly distributed.
+
+<img width="879" alt="Screenshot 2024-06-07 at 16 52 33" src="https://github.com/tanle8/tsa-gecco-challenge/assets/55974674/06cfe3ef-1f9e-4fb8-bdf2-234d7bbd5cda">
+
+
