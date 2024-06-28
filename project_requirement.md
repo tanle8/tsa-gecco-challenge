@@ -28,14 +28,14 @@ The chosen algorithms need to respect the following criteria:
   - Naive approach with global or Local mean/std (for heuristics based),
   - STL decomposition, Forecasting with Automatic decomposition
 - **Others that can be used**: Mean Absolute Deviation (for heuristics based), Fourier transform, Vector
-  autoregression, ...
+  auto-regression, ...
 
 ## Model error analysis
 
 After each modeling approach, you need to:
 
 1. Visualize anomalies: correct anomalies (labels) in green and predicted anomalies in red
-2. Analyse the model errors:
+2. Analyze the model errors:
     - Why some data points were classified as anomalies while they are not (False positives)?
     - Why some data points were not classified as anomalies while they are (False negatives)?
 
@@ -61,7 +61,6 @@ For this assignment, you need to submit a link to the project github repository 
   - ...
 
 ✅ 2. A notebook with EDA on the dataset (make sure to have plots about all dataset anomalies)
-
 
 # Defense - Anomaly detection on a time series dataset
 
